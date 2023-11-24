@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCXP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho da página -->
+
+    <header>
+        <img src="img/logo.svg" alt="logo ccxp">
+    </header>
+
+<!-- Conteúdo em texto e vídeo da página-->
+
+    <main>
+        <div id="textoInformativo">
+            <h1>REVIVA O ÉPICO</h1>
+            <h4>DE 01 A 4 DE DEZEMBRO</h4>
+            <p>Você consegue sentir? É aquela sensação de finalmente poder falar em voz alta: "estamos em casa". Sim, em dezembro de 2022, teremos a volta da CCXP física. Mas não será qualquer CCXP, vai ser a maior de todos os tempos. Prepare-se para visitar seus universos favoritos, explorar o Artists' Valley, se emocionar nos auditórios e encontrar aventuras épicas a cada passo pelos nossos corredores.
+            </p>
+        </div>
+        
+        <div id="timer">
+            <div class="contador">
+                <div id="dia" class="info-contador"><h1>00</h1></div>
+                <div id="hora" class="info-contador"><h1>00</h1></div>
+                <div id="minuto" class="info-contador"><h1>00</h1></div>
+                <div id="segundo" class="info-contador"><h1>00</h1></div>
+            </div>
+            <div id="texto-contador">
+                <h3>PARA A MAIOR CCXP DE TODOS OS TEMPOS</h3>
+            </div>
+            <video width="620px" autoplay loop>
+                <source src="img/video/ccxp.mp4">
+            </video>
+        </div>
+    </main>
+
+    <!--Aqui ficarão os cards de ingressos do evento-->
+
+    <footer>
+
+        <div class="cards">
+            <h3 id="tituloCard">AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</h3>
+            <div class="semana">
+                <img class="semana" src="img/quinta-feira.svg" alt="">
+                <img class="semana" src="img/sexta-feira.svg" alt="">
+                <img class="semana" src="img/sabado.svg" alt="">
+                <img class="semana" src="img/domingo.svg" alt="">
+            </div>
+        </div>
+
+        <div id="botao">
+            <button><h1>GARANTA O SEU!</h1></button>
+        </div>
+
+    </footer>
+
+    <script src="tempo.js"></script>
+</body>
+</html>
